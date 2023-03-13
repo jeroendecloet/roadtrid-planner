@@ -1,0 +1,81 @@
+{
+    "landmarks": {
+        "Thingvellir": {
+            "info": "Nationaal park",
+            "coordinates": [
+                64.2590673,
+                -21.1211042
+            ]
+        },
+        "Gullfoss": {
+            "info": "Watervallen",
+            "coordinates": [
+                64.3266103,
+                -20.1216821
+            ]
+        },
+        "Snaefellsnes": {
+            "info": "Nationaal park",
+            "coordinates": [
+                64.9034619,
+                -22.818973608821533
+            ]
+        },
+        "Jokulsarlon": {
+            "info": "Gletsjermeer",
+            "coordinates": [
+                64.0766956,
+                -16.229826516117893
+            ]
+        },
+        "Dimmuborgir": {
+            "info": "Trollendorp",
+            "coordinates": [
+                65.58912555,
+                -16.911920887239575
+            ]
+        },
+        "Geysir": {
+            "info": "Geisers",
+            "coordinates": [
+                64.3138382,
+                -20.2995104
+            ]
+        },
+        "Raufarholshellir": {
+            "info": "Lavagrotten",
+            "coordinates": [
+                63.9402409,
+                -21.3971824
+            ]
+        },
+        "Myvatn": {
+            "info": "Geothermische baden",
+            "coordinates": [
+                65.6032528,
+                -17.01333007267188
+            ]
+        },
+        "Egilsstadir": {
+            "info": "Papegaaiduikers en walvissen spotten",
+            "coordinates": [
+                65.2620412,
+                -14.4035258
+            ]
+        },
+        "Skaftafell": {
+            "info": "Gletsjerwandeling",
+            "coordinates": [
+                64.0164548,
+                -16.966458
+            ]
+        }
+    },
+    "main": {
+        "country": "iceland",
+        "coordinates": [
+            64.9841821,
+            -18.1059013
+        ]
+    }
+}
