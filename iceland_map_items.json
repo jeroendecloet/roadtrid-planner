@@ -1,81 +1,453 @@
 {
+    "hotels": {
+        "Akureyri": {
+            "beschikbaarheid": [
+                "23-26 Juli",
+                "28-30 Juli",
+                "(min. 2 nachten)"
+            ],
+            "coordinates": [
+                65.6826364,
+                -18.0912993
+            ],
+            "info": "airbnb",
+            "prijs": "2x110",
+            "website": "https://www.airbnb.nl/rooms/51459432?adults=2&category_tag=Tag%3A7765&location=IJsland&federated_search_id=171d2a99-ac40-4e4c-96d3-95022b2f334f&source_impression_id=p3_1678826765_f444CGL4mWgjapVY&guests=1&check_in=2023-07-28&check_out=2023-07-30"
+        },
+        "Asolfsskali": {
+            "beschikbaarheid": [
+                "18-23 Juli",
+                "27-28 Juli",
+                "2-6 Aug"
+            ],
+            "coordinates": [
+                63.57387495,
+                -19.799053739873596
+            ],
+            "info": "airbnb",
+            "prijs": "129",
+            "website": "https://www.airbnb.nl/rooms/24749341?adults=2&category_tag=Tag%3A8542&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-27&check_out=2023-07-28&federated_search_id=a8e1952c-25cb-4249-b2c9-ec4e5fe8107c&source_impression_id=p3_1678825435_uQjnlB%2BI3QuDlbIn"
+        },
+        "Blaskogabyggd": {
+            "beschikbaarheid": [
+                "1-3 Aug",
+                "(min. 2 nachten)"
+            ],
+            "coordinates": [
+                64.11606659181356,
+                -20.499551061629347
+            ],
+            "info": "airbnb",
+            "prijs": "2x135",
+            "website": "https://www.airbnb.nl/rooms/53458573?adults=2&location=IJsland&check_in=2023-08-01&federated_search_id=8d4ae6e2-7eee-4c7e-a10a-3a945e5a4a0f&source_impression_id=p3_1678826539_TqiV2YbYxNv%2BJ1ZS&guests=1&check_out=2023-08-03"
+        },
+        "Egilsstadir Guesthouse": {
+            "beschikbaarheid": [
+                "18-20 Juli",
+                "26-27 Juli",
+                "31 Juli - 6 Aug"
+            ],
+            "coordinates": [
+                65.2710353873317,
+                -14.398483797020983
+            ],
+            "info": "airbnb",
+            "prijs": "90-106",
+            "website": "https://www.airbnb.nl/rooms/8861676?adults=1&category_tag=Tag%3A8534&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-18&check_out=2023-07-20&federated_search_id=5f63b9e3-b534-4531-8696-3e2c676e410a&source_impression_id=p3_1678821365_74xbwWF8suu5uTYX"
+        },
+        "Elda Guesthouse": {
+            "beschikbaarheid": [
+                "28-29 Juli",
+                "30-31 Juli"
+            ],
+            "coordinates": [
+                65.64126544999999,
+                -16.907767875273773
+            ],
+            "info": "airbnb",
+            "prijs": "210",
+            "website": "https://www.airbnb.nl/rooms/43185841?adults=2&category_tag=Tag%3A8102&location=IJsland&check_in=2023-07-28&federated_search_id=7de333ef-5cac-4a60-a26b-ca666aff8b25&source_impression_id=p3_1678827418_TFl06VUEgM4%2BYAev&guests=1&check_out=2023-07-29"
+        },
+        "Eyjafjallajokull": {
+            "beschikbaarheid": [
+                "18-19 Juli",
+                "20-24 Juli",
+                "25-26 Juli",
+                "27-29 Juli"
+            ],
+            "coordinates": [
+                63.6197936,
+                -19.6150503
+            ],
+            "info": "airbnb",
+            "prijs": "136",
+            "website": "https://www.airbnb.nl/rooms/6430160?adults=2&category_tag=Tag%3A4104&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-27&check_out=2023-07-28&federated_search_id=12c6f255-1ec9-47e5-8a07-a8188efbedba&source_impression_id=p3_1678825189_qKjFA%2BMG8bTwOecH"
+        },
+        "Fludir": {
+            "beschikbaarheid": [
+                "27-28 Juli"
+            ],
+            "coordinates": [
+                64.1306381,
+                -20.3209294
+            ],
+            "info": "airbnb",
+            "prijs": "125",
+            "website": "https://www.airbnb.nl/rooms/29033616?adults=2&category_tag=Tag%3A8102&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-27&check_out=2023-07-28&federated_search_id=ec3e306e-84fb-4506-b4f3-1bea4d3b40ad&source_impression_id=p3_1678826247_xoHnDl41biDovF8%2F"
+        },
+        "Godafoss": {
+            "beschikbaarheid": [
+                "19-22 Juli",
+                "24-26 Juli",
+                "27-31 Juli"
+            ],
+            "coordinates": [
+                65.6828162,
+                -17.550624
+            ],
+            "info": "airbnb",
+            "prijs": "170",
+            "website": "https://www.airbnb.nl/rooms/11915952?adults=2&category_tag=Tag%3A8534&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-27&check_out=2023-07-28&federated_search_id=bf678b5e-6af4-401a-a569-37aaeaf0faa5&source_impression_id=p3_1678827703_PAYVMcqXXalDgeZJ"
+        },
+        "Grindavik": {
+            "beschikbaarheid": [
+                "18-19 Juli",
+                "20-22 Juli",
+                "23-26 Juli",
+                "27 Juli - 6+ Aug"
+            ],
+            "coordinates": [
+                63.844239,
+                -22.4317498
+            ],
+            "info": "airbnb",
+            "prijs": "90",
+            "website": "https://www.airbnb.nl/rooms/658378395887213530?adults=2&check_in=2023-08-01&check_out=2023-08-03&federated_search_id=a494dca4-2e31-467b-aace-ea25d6429712&source_impression_id=p3_1678821232_Gbqnh5k8hcgLtcde"
+        },
+        "Grundarfjordur": {
+            "beschikbaarheid": [
+                "18-21 Juli",
+                "23-26 Juli",
+                "30-31 Juli",
+                "1-3 Aug"
+            ],
+            "coordinates": [
+                64.94288695,
+                -23.40871405526258
+            ],
+            "info": "airbnb",
+            "prijs": "95-111",
+            "website": "https://www.airbnb.nl/rooms/18091249?adults=1&category_tag=Tag%3A8102&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-19&check_out=2023-07-21&federated_search_id=e20e5f8d-9cc6-4c3c-94f7-b74146fed5dd&source_impression_id=p3_1678820516_KqEdhpEcPH40%2F%2BRM"
+        },
+        "Hofn Guesthouse": {
+            "beschikbaarheid": [
+                "31 Juli - 1 Aug"
+            ],
+            "coordinates": [
+                64.25155620000001,
+                -15.211415440933344
+            ],
+            "info": "airbnb",
+            "prijs": "170",
+            "website": "https://www.airbnb.nl/rooms/24327750?adults=2&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-31&check_out=2023-08-01&federated_search_id=194e5454-6553-480f-beea-5fc2af6423e4&source_impression_id=p3_1678822143_rI64L8sJcBJ%2FNwO9"
+        },
+        "Hofn Hostel": {
+            "beschikbaarheid": [
+                "30-31 Juli"
+            ],
+            "coordinates": [
+                64.2623354,
+                -15.21233
+            ],
+            "info": "airbnb",
+            "prijs": "170",
+            "website": "https://www.airbnb.nl/rooms/51438978?adults=2&category_tag=Tag%3A8542&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-30&check_out=2023-07-31&federated_search_id=194e5454-6553-480f-beea-5fc2af6423e4&source_impression_id=p3_1678822092_r4tpFX5FY4Hx8xgk"
+        },
+        "Hvitafell": {
+            "beschikbaarheid": [
+                "23-24 Juli",
+                "27-28 Juli"
+            ],
+            "coordinates": [
+                65.72249488878964,
+                -17.355363735136276
+            ],
+            "info": "airbnb",
+            "prijs": "180",
+            "website": "https://www.airbnb.nl/rooms/17007653?adults=2&category_tag=Tag%3A8661&location=IJsland&federated_search_id=bee5973c-cfed-4bab-8b42-39b3129037d5&source_impression_id=p3_1678827463_22PD2nKcPgNSIEv7&guests=1#availability-calendar"
+        },
+        "Keflavik": {
+            "beschikbaarheid": [
+                "19-22 Juli",
+                "23-24 Juli",
+                "26-29 Juli",
+                "30 Juli - 1 Aug",
+                "3-6 Aug"
+            ],
+            "coordinates": [
+                63.9997694,
+                -22.5565373
+            ],
+            "info": "airbnb",
+            "prijs": "80-93",
+            "website": "https://www.airbnb.nl/rooms/50236865?adults=1&category_tag=Tag%3A8661&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-19&check_out=2023-07-21&federated_search_id=f8626f06-b459-489e-ae38-ede44f9e1199&source_impression_id=p3_1678820987_q18Nv9C6TObSCduj"
+        },
+        "Laugarvatn": {
+            "beschikbaarheid": [
+                "18-21 Juli",
+                "22-24 Juli",
+                "25-26 Juli",
+                "27-28 Juli",
+                "30-31 Juli",
+                "1-2 Aug"
+            ],
+            "coordinates": [
+                64.21417489727747,
+                -20.73341245043193
+            ],
+            "info": "airbnb",
+            "prijs": "159",
+            "website": "https://www.airbnb.nl/rooms/11844883?adults=2&category_tag=Tag%3A8102&location=IJsland&federated_search_id=3a06de5c-c4b5-4b89-a197-7e6ab8be8220&source_impression_id=p3_1678826098_cLYw89nGXBCuUhkH&guests=1"
+        },
+        "Saudanes": {
+            "beschikbaarheid": [
+                "27-28 Juli"
+            ],
+            "coordinates": [
+                64.27818835940045,
+                -15.15282997328396
+            ],
+            "info": "airbnb",
+            "prijs": "153",
+            "website": "https://www.airbnb.nl/rooms/760634764740141018?adults=2&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-27&check_out=2023-07-28&federated_search_id=a2e760cc-6b72-4661-abb5-b8566489952e&source_impression_id=p3_1678827968_ADq1yByqZ%2BPF653c"
+        },
+        "Saudanes 2": {
+            "beschikbaarheid": [
+                "30-31 Juli"
+            ],
+            "coordinates": [
+                64.28311056824096,
+                -15.150051645557403
+            ],
+            "info": "airbnb",
+            "prijs": "177",
+            "website": "https://www.airbnb.nl/rooms/752274148659330580?adults=2&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-30&check_out=2023-07-31&federated_search_id=3065ac8a-4a5e-49f6-a032-810c30b3b104&source_impression_id=p3_1678828098_DCPGYLHzLrBG0pCn"
+        },
+        "Skogar": {
+            "beschikbaarheid": [
+                "18-19 Juli",
+                "20-24 Juli",
+                "25-30 Juli"
+            ],
+            "coordinates": [
+                63.5269509,
+                -19.4944304
+            ],
+            "info": "airbnb",
+            "prijs": "141",
+            "website": "https://www.airbnb.nl/rooms/35561694?adults=2&category_tag=Tag%3A8542&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-27&check_out=2023-07-28&federated_search_id=22313c77-1b73-4dcc-88e8-1ed14c797e58&source_impression_id=p3_1678824907_TrVR9%2BJAj4sNA9l2"
+        }
+    },
     "landmarks": {
-        "Thingvellir": {
-            "info": "Nationaal park",
+        "Arnarstapi": {
             "coordinates": [
-                64.2590673,
-                -21.1211042
-            ]
+                64.766727,
+                -23.628085
+            ],
+            "info": "Kliffen"
         },
-        "Gullfoss": {
-            "info": "Watervallen",
+        "Blue Lagoon": {
             "coordinates": [
-                64.3266103,
-                -20.1216821
-            ]
-        },
-        "Snaefellsnes": {
-            "info": "Nationaal park",
-            "coordinates": [
-                64.9034619,
-                -22.818973608821533
-            ]
-        },
-        "Jokulsarlon": {
-            "info": "Gletsjermeer",
-            "coordinates": [
-                64.0766956,
-                -16.229826516117893
-            ]
+                63.8813391,
+                -22.4525679
+            ],
+            "info": "Geothermisch bad"
         },
         "Dimmuborgir": {
-            "info": "Trollendorp",
             "coordinates": [
                 65.58912555,
                 -16.911920887239575
-            ]
-        },
-        "Geysir": {
-            "info": "Geisers",
-            "coordinates": [
-                64.3138382,
-                -20.2995104
-            ]
-        },
-        "Raufarholshellir": {
-            "info": "Lavagrotten",
-            "coordinates": [
-                63.9402409,
-                -21.3971824
-            ]
-        },
-        "Myvatn": {
-            "info": "Geothermische baden",
-            "coordinates": [
-                65.6032528,
-                -17.01333007267188
-            ]
+            ],
+            "info": "Trollendorp"
         },
         "Egilsstadir": {
-            "info": "Papegaaiduikers en walvissen spotten",
             "coordinates": [
                 65.2620412,
                 -14.4035258
-            ]
+            ],
+            "info": "Papegaaiduikers en walvissen spotten"
+        },
+        "Fagradalsfjall": {
+            "coordinates": [
+                63.9051002,
+                -22.2725943
+            ],
+            "icon": "volcano",
+            "info": "Vulkaan"
+        },
+        "Geysir": {
+            "coordinates": [
+                64.3138382,
+                -20.2995104
+            ],
+            "info": "Geisers"
+        },
+        "Gljufrafoss": {
+            "coordinates": [
+                63.6207562,
+                -19.9863395
+            ],
+            "icon": "waterfall",
+            "info": "Waterval"
+        },
+        "Godafoss": {
+            "coordinates": [
+                65.6828162,
+                -17.550624
+            ],
+            "icon": "waterfall",
+            "info": "Waterval"
+        },
+        "Gullfoss": {
+            "coordinates": [
+                64.3266103,
+                -20.1216821
+            ],
+            "icon": "waterfall",
+            "info": "Watervallen"
+        },
+        "Hraunfossar": {
+            "coordinates": [
+                64.7025647,
+                -20.9806014
+            ],
+            "icon": "waterfall",
+            "info": "Waterval"
+        },
+        "Jokulsarlon": {
+            "coordinates": [
+                64.0766956,
+                -16.229826516117893
+            ],
+            "info": "Gletsjermeer"
+        },
+        "Kirkjufellsfoss": {
+            "coordinates": [
+                64.92616,
+                -23.3123631
+            ],
+            "icon": "waterfall",
+            "info": "Watervallen"
+        },
+        "Leirhnjukur": {
+            "coordinates": [
+                65.7212747,
+                -16.7935408
+            ],
+            "info": "Geothermisch gebied"
+        },
+        "Myvatn": {
+            "coordinates": [
+                65.6032528,
+                -17.01333007267188
+            ],
+            "info": "Geothermische baden"
+        },
+        "Namafjall": {
+            "coordinates": [
+                65.6401475,
+                -16.821119
+            ],
+            "info": "Vulkanisch gebied"
+        },
+        "Raufarholshellir": {
+            "coordinates": [
+                63.9402409,
+                -21.3971824
+            ],
+            "info": "Lavagrotten"
+        },
+        "Seljalandsfoss": {
+            "coordinates": [
+                63.6154571,
+                -19.9881686
+            ],
+            "icon": "waterfall",
+            "info": "Waterval"
+        },
+        "Seljavallalaug": {
+            "coordinates": [
+                63.56610025,
+                -19.607715437931866
+            ],
+            "info": "Zwembad"
+        },
+        "Seltun": {
+            "coordinates": [
+                63.8952515,
+                -22.0555191
+            ],
+            "info": "Geothermisch veld"
         },
         "Skaftafell": {
-            "info": "Gletsjerwandeling",
             "coordinates": [
                 64.0164548,
                 -16.966458
-            ]
+            ],
+            "info": "Gletsjerwandeling"
+        },
+        "Skogafoss": {
+            "coordinates": [
+                63.5321038,
+                -19.511292
+            ],
+            "icon": "waterfall",
+            "info": "Waterval"
+        },
+        "Snaefellsnes": {
+            "coordinates": [
+                64.9034619,
+                -22.818973608821533
+            ],
+            "icon": "tree",
+            "info": "Nationaal park"
+        },
+        "Strokkur": {
+            "coordinates": [
+                64.3126964,
+                -20.3007733
+            ],
+            "info": "Geothermisch gebied"
+        },
+        "Thingvellir": {
+            "coordinates": [
+                64.2590673,
+                -21.1211042
+            ],
+            "icon": "tree",
+            "info": "Nationaal park"
+        },
+        "Viti": {
+            "coordinates": [
+                65.7171018,
+                -16.7531032
+            ],
+            "icon": "volcano",
+            "info": "Krater"
+        },
+        "Ytri-Tunga": {
+            "coordinates": [
+                64.80333606647615,
+                -23.0800325257759
+            ],
+            "info": "Strand"
         }
     },
     "main": {
-        "country": "iceland",
         "coordinates": [
             64.9841821,
             -18.1059013
-        ]
+        ],
+        "country": "iceland"
     }
 }
