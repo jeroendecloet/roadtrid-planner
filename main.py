@@ -109,8 +109,11 @@ class MapMaker:
             return folium.Icon(color='red', icon="water", prefix='fa')
         elif icon == 'tree':
             return folium.Icon(color='red', icon='tree', prefix='fa')
+        elif icon == "food":
+            return folium.Icon(color='blue', icon='utensils', prefix='fa')
         else:
-            raise ValueError(f"Icon {icon} not recognized!")
+            # Try to make icon
+            return folium.Icon(color='red', icon=icon, prefix='fa')
 
     def _add_coordinates(self, keys: Union[list, str]) -> None:
         """ Adds coordinates to locations that do not have coordinates yet. """
@@ -135,33 +138,33 @@ class MapMaker:
     def add_markers(self, locations: dict[str, dict], icon: str) -> None:
         for loc, info_dict in locations.items():
             assert "coordinates" in info_dict.keys(), f"{loc} is missing coordinates!"
-            if icon == "landmarks":
-                # popup = folium.Popup(" ".join([loc, info_dict['info']]), parse_html=True)
+            # if icon == "landmarks":
+            #     # popup = folium.Popup(" ".join([loc, info_dict['info']]), parse_html=True)
 
-                _info = f"{info_dict['info']}<br>" if 'info' in info_dict else ''
-                _website = f"""<a href="{info_dict['website']}" target="_blank">website</a><br>""" if 'website' in info_dict else ''
-                _price = f"""Prijs: &euro; {info_dict['prijs']}<br> """ if 'prijs' in info_dict else ''
-                _availability = "Beschikbaarheid: <ul>{availability}</ul>".format(availability=''.join([f"<li>{item}</li>" for item in info_dict['beschikbaarheid']])) if 'beschikbaarheid' in info_dict else ''
-                html = """<b>{loc}</b><br>{website}{price}{info}{availability}
-                """.format(
-                    loc=loc,
-                    website=_website,
-                    price=_price,
-                    info=_info,
-                    availability=_availability
-                )
-                popup = folium.Popup(folium.IFrame(html, width=200, height=200))
+            _info = f"{info_dict['info']}<br>" if 'info' in info_dict else ''
+            _website = f"""<a href="{info_dict['website']}" target="_blank">website</a><br>""" if 'website' in info_dict else ''
+            _price = f"""Prijs: &euro; {info_dict['prijs']}<br> """ if 'prijs' in info_dict else ''
+            _availability = "Beschikbaarheid: <ul>{availability}</ul>".format(availability=''.join([f"<li>{item}</li>" for item in info_dict['beschikbaarheid']])) if 'beschikbaarheid' in info_dict else ''
+            html = """<b>{loc}</b><br>{website}{price}{info}{availability}
+            """.format(
+                loc=loc,
+                website=_website,
+                price=_price,
+                info=_info,
+                availability=_availability
+            )
+            popup = folium.Popup(folium.IFrame(html, width=200, height=200))
 
-            elif icon == "hotels":
-                beschikbaarheid = ''.join([f"<li>{item}</li>" for item in info_dict['beschikbaarheid']])
-                html = f"""<b>{loc}</b><br>
-                    Prijs: &euro; {info_dict['prijs']}<br>
-                    <a href="{info_dict['website']}" target="_blank">website</a><br>
-                    Beschikbaarheid: <ul>{beschikbaarheid}</ul>
-                    """
-                popup = folium.Popup(folium.IFrame(html, width=200, height=200))
-            else:
-                raise ValueError
+            # elif icon == "hotels":
+            #     beschikbaarheid = ''.join([f"<li>{item}</li>" for item in info_dict['beschikbaarheid']])
+            #     html = f"""<b>{loc}</b><br>
+            #         Prijs: &euro; {info_dict['prijs']}<br>
+            #         <a href="{info_dict['website']}" target="_blank">website</a><br>
+            #         Beschikbaarheid: <ul>{beschikbaarheid}</ul>
+            #         """
+            #     popup = folium.Popup(folium.IFrame(html, width=200, height=200))
+            # else:
+            #     raise ValueError
 
             folium.Marker(
                 location=info_dict["coordinates"],
@@ -175,7 +178,7 @@ class MapMaker:
     def main(self) -> None:
         self.create_map()
 
-        items = ['landmarks', 'hotels']
+        items = ['landmarks', 'hotels', "food"]
         for item in items:
             self._add_coordinates([item])
             self.add_markers(self.mi[item], icon=item)
