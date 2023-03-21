@@ -26,186 +26,22 @@
         }
     },
     "hotels": {
-        "Akureyri": {
+        "201 Hotel": {
             "beschikbaarheid": [
-                "23-26 Juli",
-                "28-30 Juli",
-                "(min. 2 nachten)"
+                "31 Juli - 2 Aug"
             ],
             "coordinates": [
-                65.6826364,
-                -18.0912993
-            ],
-            "info": "airbnb",
-            "prijs": "2x110",
-            "region": "n",
-            "website": "https://www.airbnb.nl/rooms/51459432?adults=2&category_tag=Tag%3A7765&location=IJsland&federated_search_id=171d2a99-ac40-4e4c-96d3-95022b2f334f&source_impression_id=p3_1678826765_f444CGL4mWgjapVY&guests=1&check_in=2023-07-28&check_out=2023-07-30"
-        },
-        "Asolfsskali": {
-            "beschikbaarheid": [
-                "18-23 Juli",
-                "27-28 Juli",
-                "2-6 Aug"
-            ],
-            "coordinates": [
-                63.57387495,
-                -19.799053739873596
-            ],
-            "info": "airbnb",
-            "prijs": "129",
-            "region": "z",
-            "website": "https://www.airbnb.nl/rooms/24749341?adults=2&category_tag=Tag%3A8542&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-27&check_out=2023-07-28&federated_search_id=a8e1952c-25cb-4249-b2c9-ec4e5fe8107c&source_impression_id=p3_1678825435_uQjnlB%2BI3QuDlbIn"
-        },
-        "Blaskogabyggd": {
-            "beschikbaarheid": [
-                "1-3 Aug",
-                "(min. 2 nachten)"
-            ],
-            "coordinates": [
-                64.11606659181356,
-                -20.499551061629347
-            ],
-            "info": "airbnb",
-            "prijs": "2x135",
-            "region": "mid",
-            "website": "https://www.airbnb.nl/rooms/53458573?adults=2&location=IJsland&check_in=2023-08-01&federated_search_id=8d4ae6e2-7eee-4c7e-a10a-3a945e5a4a0f&source_impression_id=p3_1678826539_TqiV2YbYxNv%2BJ1ZS&guests=1&check_out=2023-08-03"
-        },
-        "Egilsstadir Guesthouse": {
-            "beschikbaarheid": [
-                "18-20 Juli",
-                "26-27 Juli",
-                "31 Juli - 6 Aug"
-            ],
-            "coordinates": [
-                65.2710353873317,
-                -14.398483797020983
-            ],
-            "info": "airbnb",
-            "prijs": "90-106",
-            "region": "o",
-            "website": "https://www.airbnb.nl/rooms/8861676?adults=1&category_tag=Tag%3A8534&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-18&check_out=2023-07-20&federated_search_id=5f63b9e3-b534-4531-8696-3e2c676e410a&source_impression_id=p3_1678821365_74xbwWF8suu5uTYX"
-        },
-        "Elda Guesthouse": {
-            "beschikbaarheid": [
-                "28-29 Juli",
-                "30-31 Juli"
-            ],
-            "coordinates": [
-                65.64126544999999,
-                -16.907767875273773
-            ],
-            "info": "airbnb",
-            "prijs": "210",
-            "region": "n",
-            "website": "https://www.airbnb.nl/rooms/43185841?adults=2&category_tag=Tag%3A8102&location=IJsland&check_in=2023-07-28&federated_search_id=7de333ef-5cac-4a60-a26b-ca666aff8b25&source_impression_id=p3_1678827418_TFl06VUEgM4%2BYAev&guests=1&check_out=2023-07-29"
-        },
-        "Eyjafjallajokull": {
-            "beschikbaarheid": [
-                "18-19 Juli",
-                "20-24 Juli",
-                "25-26 Juli",
-                "27-29 Juli"
-            ],
-            "coordinates": [
-                63.52776044106382,
-                -19.638354204442937
-            ],
-            "info": "airbnb",
-            "prijs": "136",
-            "region": "z",
-            "website": "https://www.airbnb.nl/rooms/6430160?adults=2&category_tag=Tag%3A4104&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-27&check_out=2023-07-28&federated_search_id=12c6f255-1ec9-47e5-8a07-a8188efbedba&source_impression_id=p3_1678825189_qKjFA%2BMG8bTwOecH"
-        },
-        "Fludir": {
-            "beschikbaarheid": [
-                "27-28 Juli"
-            ],
-            "coordinates": [
-                64.1306381,
-                -20.3209294
-            ],
-            "info": "airbnb",
-            "prijs": "125",
-            "region": "mid",
-            "website": "https://www.airbnb.nl/rooms/29033616?adults=2&category_tag=Tag%3A8102&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-27&check_out=2023-07-28&federated_search_id=ec3e306e-84fb-4506-b4f3-1bea4d3b40ad&source_impression_id=p3_1678826247_xoHnDl41biDovF8%2F"
-        },
-        "Gistihusid": {
-            "beschikbaarheid": [
-                "28-29 Juli"
-            ],
-            "coordinates": [
-                65.2620251,
-                -14.4149424
+                64.0975821640473,
+                -21.889272855256802
             ],
             "info": "hotel",
-            "prijs": "255",
-            "region": "o",
-            "website": "https://www.booking.com/hotel/is/guesthouse-egilsstadir.nl.html?aid=337862&app_hotel_id=889003&checkin=2023-07-28&checkout=2023-07-29&from_sn=android&group_adults=2&group_children=0&label=Share-GZZ3ygC%401679337703&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA"
-        },
-        "Godafoss": {
-            "beschikbaarheid": [
-                "19-22 Juli",
-                "24-26 Juli",
-                "27-31 Juli"
-            ],
-            "coordinates": [
-                65.6828162,
-                -17.550624
-            ],
-            "info": "airbnb",
-            "prijs": "170",
-            "region": "n",
-            "website": "https://www.airbnb.nl/rooms/11915952?adults=2&category_tag=Tag%3A8534&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-27&check_out=2023-07-28&federated_search_id=bf678b5e-6af4-401a-a569-37aaeaf0faa5&source_impression_id=p3_1678827703_PAYVMcqXXalDgeZJ"
-        },
-        "Grettir guesthouse": {
-            "beschikbaarheid": [
-                "18-21 Juli",
-                "22-24 Juli",
-                "25 Juli - 3 Aug"
-            ],
-            "coordinates": [
-                64.145159,
-                -21.92811844523809
-            ],
-            "info": "hotel",
-            "prijs": "144",
+            "prijs": "172",
             "region": "zw",
-            "website": "https://www.booking.com/hotel/is/grettir-guesthouse-reykjavik.nl.html?aid=393655&label=msn-nN2SU%2AVsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=22cc0fbc0371d69e9073d890e1ac6897&atlas_src=sr_iw_btn;checkin=2023-08-02;checkout=2023-08-03;dest_id=0;dist=0;group_adults=2;group_children=0;highlighted_blocks=78682602_207475714_2_0_0;no_rooms=1;room1=A%2CA;sb_price_type=total;type=total;ucfs=1&"
-        },
-        "Grindavik": {
-            "beschikbaarheid": [
-                "18-19 Juli",
-                "20-22 Juli",
-                "23-26 Juli",
-                "27 Juli - 6 Aug"
-            ],
-            "coordinates": [
-                63.844239,
-                -22.4317498
-            ],
-            "info": "airbnb",
-            "prijs": "90",
-            "region": "zw",
-            "website": "https://www.airbnb.nl/rooms/658378395887213530?adults=2&check_in=2023-08-01&check_out=2023-08-03&federated_search_id=a494dca4-2e31-467b-aace-ea25d6429712&source_impression_id=p3_1678821232_Gbqnh5k8hcgLtcde"
-        },
-        "Grundarfjordur": {
-            "beschikbaarheid": [
-                "18-21 Juli",
-                "23-26 Juli",
-                "30-31 Juli",
-                "1-3 Aug"
-            ],
-            "coordinates": [
-                64.94288695,
-                -23.40871405526258
-            ],
-            "info": "airbnb",
-            "prijs": "95-111",
-            "region": "w",
-            "website": "https://www.airbnb.nl/rooms/18091249?adults=1&category_tag=Tag%3A8102&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-19&check_out=2023-07-21&federated_search_id=e20e5f8d-9cc6-4c3c-94f7-b74146fed5dd&source_impression_id=p3_1678820516_KqEdhpEcPH40%2F%2BRM"
+            "website": "https://www.booking.com/hotel/is/first-kopavogur.nl.html?aid=393655&label=msn-nN2SU%2AVsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=6062a088edbdba80cd0341ae97156c6f&all_sr_blocks=270364401_106138512_0_1_0;checkin=2023-08-01;checkout=2023-08-02;dest_id=-2651804;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=5;highlighted_blocks=270364401_106138512_0_1_0;hpos=5;matching_block_id=270364401_106138512_0_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=270364401_106138512_0_1_0__16082;srepoch=1679426339;srpvid=09ae87d06d4b01d7;type=total;ucfs=1&#hotelTmpl"
         },
         "Borealis Hotel": {
             "beschikbaarheid": [
-                "18 Juli - 3 Aug"
+                "21-22 Juli"
             ],
             "coordinates": [
                 64.1013326174396,
@@ -215,177 +51,6 @@
             "prijs": "217",
             "region": "mid",
             "website": "https://www.booking.com/hotel/is/borealis.html?aid=393655&label=msn-nN2SU%2AVsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=4e3736c243bf75aa4fa5cfce2b616549;checkin=2023-07-21;checkout=2023-07-22;room1=A,A;homd=1;srpvid=67718e6fd07c01ec;srepoch=1679430236;atlas_src=hp_iw_btn"
-        },
-        "Hafnarfjordur": {
-            "beschikbaarheid": [
-                "18-27 Juli",
-                "31 Juli -3 Aug"
-            ],
-            "coordinates": [
-                64.06422067601976,
-                -21.92558809422129
-            ],
-            "info": "airbnb",
-            "prijs": "130",
-            "website": "https://www.airbnb.nl/rooms/668160471397777486?adults=2&category_tag=Tag%3A8542&location=IJsland&check_in=2023-07-18&check_out=2023-07-21&federated_search_id=205f01cc-6309-4054-bc02-3742c007d4c7&source_impression_id=p3_1679430687_XjXMihmteLQx3Dfn"
-        },
-        "Grundarfjordur hostel": {
-            "beschikbaarheid": [
-                "18-29 Juli"
-            ],
-            "coordinates": [
-                64.92274705,
-                -23.25818743861
-            ],
-            "info": "hostel",
-            "prijs": "252",
-            "region": "w",
-            "website": "https://www.booking.com/hotel/is/grundarfjordur-hostel.nl.html?aid=393655&label=msn-nN2SU*VsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=d3b98d58d08ee491a7ad8be69a2a4c3e&all_sr_blocks=113313901_89105776_0_0_0&checkin=2023-07-21&checkout=2023-07-23&dest_id=900040112&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=5&highlighted_blocks=113313901_89105776_0_0_0&hpos=5&matching_block_id=113313901_89105776_0_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=113313901_89105776_0_0_0__25200&srepoch=1679339097&srpvid=6f32862b131800a4&type=total&ucfs=1&activeTab=main"
-        },
-        "Hofn Guesthouse": {
-            "beschikbaarheid": [
-                "31 Juli - 1 Aug"
-            ],
-            "coordinates": [
-                64.25155620000001,
-                -15.211415440933344
-            ],
-            "info": "airbnb",
-            "prijs": "170",
-            "region": "zo",
-            "website": "https://www.airbnb.nl/rooms/24327750?adults=2&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-31&check_out=2023-08-01&federated_search_id=194e5454-6553-480f-beea-5fc2af6423e4&source_impression_id=p3_1678822143_rI64L8sJcBJ%2FNwO9"
-        },
-        "Hofn Hostel": {
-            "beschikbaarheid": [
-                "30-31 Juli"
-            ],
-            "coordinates": [
-                64.2623354,
-                -15.21233
-            ],
-            "info": "airbnb",
-            "prijs": "170",
-            "region": "zo",
-            "website": "https://www.airbnb.nl/rooms/51438978?adults=2&category_tag=Tag%3A8542&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-30&check_out=2023-07-31&federated_search_id=194e5454-6553-480f-beea-5fc2af6423e4&source_impression_id=p3_1678822092_r4tpFX5FY4Hx8xgk"
-        },
-        "Hvitafell": {
-            "beschikbaarheid": [
-                "23-24 Juli",
-                "27-28 Juli"
-            ],
-            "coordinates": [
-                65.72249488878964,
-                -17.355363735136276
-            ],
-            "info": "airbnb",
-            "prijs": "180",
-            "region": "n",
-            "website": "https://www.airbnb.nl/rooms/17007653?adults=2&category_tag=Tag%3A8661&location=IJsland&federated_search_id=bee5973c-cfed-4bab-8b42-39b3129037d5&source_impression_id=p3_1678827463_22PD2nKcPgNSIEv7&guests=1#availability-calendar"
-        },
-        "Hvolsvollur": {
-            "beschikbaarheid": [
-                "18-19 Juli",
-                "28-31 Juli",
-                "1-3 Aug"
-            ],
-            "coordinates": [
-                63.7508108,
-                -20.223842
-            ],
-            "info": "airbnb",
-            "prijs": "160",
-            "region": "z",
-            "website": "https://www.airbnb.nl/rooms/42178054?adults=2&category_tag=Tag%3A8542&location=IJsland&check_in=2023-08-01&check_out=2023-08-02&federated_search_id=85f689ab-d892-4d79-b129-d270e1c707f6&source_impression_id=p3_1679421849_Urm10wBN1%2FscPZYZ"
-        },
-        "Keflavik": {
-            "beschikbaarheid": [
-                "19-22 Juli",
-                "23-24 Juli",
-                "26-29 Juli",
-                "30 Juli - 1 Aug",
-                "3-6 Aug"
-            ],
-            "coordinates": [
-                63.9997694,
-                -22.5565373
-            ],
-            "info": "airbnb",
-            "prijs": "80-93",
-            "region": "zw",
-            "website": "https://www.airbnb.nl/rooms/50236865?adults=1&category_tag=Tag%3A8661&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-19&check_out=2023-07-21&federated_search_id=f8626f06-b459-489e-ae38-ede44f9e1199&source_impression_id=p3_1678820987_q18Nv9C6TObSCduj"
-        },
-        "Laugarvatn": {
-            "beschikbaarheid": [
-                "18-21 Juli",
-                "22-24 Juli",
-                "25-26 Juli",
-                "27-28 Juli",
-                "30-31 Juli",
-                "1-2 Aug"
-            ],
-            "coordinates": [
-                64.21417489727747,
-                -20.73341245043193
-            ],
-            "info": "airbnb",
-            "prijs": "159",
-            "region": "mid",
-            "website": "https://www.airbnb.nl/rooms/11844883?adults=2&category_tag=Tag%3A8102&location=IJsland&federated_search_id=3a06de5c-c4b5-4b89-a197-7e6ab8be8220&source_impression_id=p3_1678826098_cLYw89nGXBCuUhkH&guests=1"
-        },
-        "Saudanes": {
-            "beschikbaarheid": [
-                "27-28 Juli"
-            ],
-            "coordinates": [
-                64.27818835940045,
-                -15.15282997328396
-            ],
-            "info": "airbnb",
-            "prijs": "153",
-            "region": "zo",
-            "website": "https://www.airbnb.nl/rooms/760634764740141018?adults=2&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-27&check_out=2023-07-28&federated_search_id=a2e760cc-6b72-4661-abb5-b8566489952e&source_impression_id=p3_1678827968_ADq1yByqZ%2BPF653c"
-        },
-        "Saudanes 2": {
-            "beschikbaarheid": [
-                "30-31 Juli"
-            ],
-            "coordinates": [
-                64.28311056824096,
-                -15.150051645557403
-            ],
-            "info": "airbnb",
-            "prijs": "177",
-            "region": "zo",
-            "website": "https://www.airbnb.nl/rooms/752274148659330580?adults=2&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-30&check_out=2023-07-31&federated_search_id=3065ac8a-4a5e-49f6-a032-810c30b3b104&source_impression_id=p3_1678828098_DCPGYLHzLrBG0pCn"
-        },
-        "Skogar 36": {
-            "beschikbaarheid": [
-                "18-19 Juli",
-                "20-24 Juli",
-                "25-31 Juli"
-            ],
-            "coordinates": [
-                63.5269509,
-                -19.4944304
-            ],
-            "info": "airbnb",
-            "prijs": "141",
-            "region": "z",
-            "website": "https://www.airbnb.nl/rooms/35561694?adults=2&category_tag=Tag%3A8542&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-27&check_out=2023-07-28&federated_search_id=22313c77-1b73-4dcc-88e8-1ed14c797e58&source_impression_id=p3_1678824907_TrVR9%2BJAj4sNA9l2"
-        },
-        "Skogar 35": {
-            "beschikbaarheid": [
-                "18-24 Juli",
-                "25 Juli - 1 Aug"
-            ],
-            "coordinates": [
-                63.5239509,
-                -19.4934304
-            ],
-            "info": "airbnb",
-            "prijs": "141",
-            "region": "z",
-            "website": "https://www.airbnb.nl/rooms/35559520?adults=2&category_tag=Tag%3A8542&location=IJsland&check_in=2023-07-28&check_out=2023-07-29&federated_search_id=caa99e90-c7c3-487b-89ce-83016867b5a1&source_impression_id=p3_1679427684_WP%2FyzYJ%2F3aunNWj9"
         },
         "Cozy Cottage": {
             "beschikbaarheid": [
@@ -400,11 +65,73 @@
             "region": "mid",
             "website": "https://www.booking.com/hotel/is/cozy-cottage-near-geysir.nl.html?aid=393655&label=msn-nN2SU%2AVsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=6062a088edbdba80cd0341ae97156c6f&all_sr_blocks=267334301_335581656_2_0_0;checkin=2023-07-29;checkout=2023-07-31;dest_id=900039652;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=4;highlighted_blocks=267334301_335581656_2_0_0;hpos=4;matching_block_id=267334301_335581656_2_0_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=267334301_335581656_2_0_0__31500;srepoch=1679427147;srpvid=63f389647b3502f2;type=total;ucfs=1&#map_closed"
         },
+        "Egilsstadir Guesthouse": {
+            "beschikbaarheid": [
+                "26-27 Juli"
+            ],
+            "coordinates": [
+                65.2710353873317,
+                -14.398483797020983
+            ],
+            "info": "airbnb",
+            "prijs": "90-106",
+            "region": "o",
+            "website": "https://www.airbnb.nl/rooms/8861676?adults=1&category_tag=Tag%3A8534&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-18&check_out=2023-07-20&federated_search_id=5f63b9e3-b534-4531-8696-3e2c676e410a&source_impression_id=p3_1678821365_74xbwWF8suu5uTYX"
+        },
+        "Grundarfjordur hostel": {
+            "beschikbaarheid": [
+                "22-23 Juli"
+            ],
+            "coordinates": [
+                64.92274705,
+                -23.25818743861
+            ],
+            "info": "hostel",
+            "prijs": "252",
+            "region": "w",
+            "website": "https://www.booking.com/hotel/is/grundarfjordur-hostel.nl.html?aid=393655&label=msn-nN2SU*VsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=d3b98d58d08ee491a7ad8be69a2a4c3e&all_sr_blocks=113313901_89105776_0_0_0&checkin=2023-07-21&checkout=2023-07-23&dest_id=900040112&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=5&highlighted_blocks=113313901_89105776_0_0_0&hpos=5&matching_block_id=113313901_89105776_0_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=113313901_89105776_0_0_0__25200&srepoch=1679339097&srpvid=6f32862b131800a4&type=total&ucfs=1&activeTab=main"
+        },
+        "Hafnarfjordur": {
+            "beschikbaarheid": [
+                "18-21 Juli"
+            ],
+            "coordinates": [
+                64.06422067601976,
+                -21.92558809422129
+            ],
+            "info": "airbnb",
+            "prijs": "130",
+            "website": "https://www.airbnb.nl/rooms/668160471397777486?adults=2&category_tag=Tag%3A8542&location=IJsland&check_in=2023-07-18&check_out=2023-07-21&federated_search_id=205f01cc-6309-4054-bc02-3742c007d4c7&source_impression_id=p3_1679430687_XjXMihmteLQx3Dfn"
+        },
+        "Saudanes": {
+            "beschikbaarheid": [
+                "27-28 Juli"
+            ],
+            "coordinates": [
+                64.28311056824096,
+                -15.150051645557403
+            ],
+            "info": "airbnb",
+            "prijs": "164",
+            "region": "zo",
+            "website": "https://www.airbnb.nl/rooms/760634764740141018?source_impression_id=p3_1679433759_3ijtpHB0MEXkwKEh"
+        },
+        "Skogar 35": {
+            "beschikbaarheid": [
+                "28-29 Juli"
+            ],
+            "coordinates": [
+                63.5239509,
+                -19.4934304
+            ],
+            "info": "airbnb",
+            "prijs": "141",
+            "region": "z",
+            "website": "https://www.airbnb.nl/rooms/35559520?adults=2&category_tag=Tag%3A8542&location=IJsland&check_in=2023-07-28&check_out=2023-07-29&federated_search_id=caa99e90-c7c3-487b-89ce-83016867b5a1&source_impression_id=p3_1679427684_WP%2FyzYJ%2F3aunNWj9"
+        },
         "Tjarnir": {
             "beschikbaarheid": [
-                "18-19 Juli",
-                "20-21 Juli",
-                "24 Juli - 3 Aug"
+                "24-26 Juli"
             ],
             "coordinates": [
                 65.71280677165744,
@@ -413,35 +140,7 @@
             "info": "hotel",
             "prijs": "324",
             "region": "n",
-             "website": "https://www.booking.com/hotel/is/tjarnir-husavik12345678910111213141516171819202122.nl.html?aid=393655&label=msn-nN2SU%2AVsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=4e3736c243bf75aa4fa5cfce2b616549&all_sr_blocks=839373201_350448010_0_0_0;checkin=2023-07-24;checkout=2023-07-26;dest_id=900049871;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=839373201_350448010_0_0_0;hpos=1;matching_block_id=839373201_350448010_0_0_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=839373201_350448010_0_0_0__32400;srepoch=1679428619;srpvid=e4378c45039b0240;type=total;ucfs=1&#map_closed"
-        },
-        "201 Hotel": {
-            "beschikbaarheid": [
-                "19-21 Juli",
-                "22 Juli - 3 Aug"
-            ],
-            "coordinates": [
-                64.0975821640473,
-                -21.889272855256802
-            ],
-            "info": "hotel",
-            "prijs": "172",
-            "region": "zw",
-            "website": "https://www.booking.com/hotel/is/first-kopavogur.nl.html?aid=393655&label=msn-nN2SU%2AVsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=6062a088edbdba80cd0341ae97156c6f&all_sr_blocks=270364401_106138512_0_1_0;checkin=2023-08-01;checkout=2023-08-02;dest_id=-2651804;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=5;highlighted_blocks=270364401_106138512_0_1_0;hpos=5;matching_block_id=270364401_106138512_0_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=270364401_106138512_0_1_0__16082;srepoch=1679426339;srpvid=09ae87d06d4b01d7;type=total;ucfs=1&#hotelTmpl"
-        },
-        "Sudur-bar": {
-            "beschikbaarheid": [
-                "21-23 Juli",
-                "27-28 Juli"
-            ],
-            "coordinates": [
-                64.9797438,
-                -23.2157233
-            ],
-            "info": "hotel",
-            "prijs": "330",
-            "region": "w",
-            "website": "https://www.booking.com/hotel/is/sudur-bar.nl.html?aid=393655&label=msn-nN2SU%2AVsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=607f676f774a6f182bd472da4fe64d18&all_sr_blocks=44870501_343621760_2_1_0;checkin=2023-07-21;checkout=2023-07-23;dest_id=900040112;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=44870501_343621760_2_1_0;hpos=1;matching_block_id=44870501_343621760_2_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=44870501_343621760_2_1_0__31122;srepoch=1679339097;srpvid=6f32862b131800a4;type=total;ucfs=1&#map_closed"
+            "website": "https://www.booking.com/hotel/is/tjarnir-husavik12345678910111213141516171819202122.nl.html?aid=393655&label=msn-nN2SU%2AVsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=4e3736c243bf75aa4fa5cfce2b616549&all_sr_blocks=839373201_350448010_0_0_0;checkin=2023-07-24;checkout=2023-07-26;dest_id=900049871;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=839373201_350448010_0_0_0;hpos=1;matching_block_id=839373201_350448010_0_0_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=839373201_350448010_0_0_0__32400;srepoch=1679428619;srpvid=e4378c45039b0240;type=total;ucfs=1&#map_closed"
         }
     },
     "landmarks": {
