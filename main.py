@@ -121,6 +121,9 @@ class MapMaker:
 
     @staticmethod
     def _create_icon(icon: str, color: str) -> folium.Icon:
+        """
+        For all available icons, see https://fontawesome.com/icons?d=gallery
+        """
         if 'hotel' in icon:
             return folium.Icon(color=color, icon="bed", prefix='fa')
         elif 'landmark' in icon:

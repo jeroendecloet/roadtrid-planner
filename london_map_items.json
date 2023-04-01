@@ -1,0 +1,143 @@
+{
+    "main": {
+        "coordinates": [
+            51.5041025765116,
+            -0.12697023427502063
+        ],
+        "country": "London United Kingdom",
+        "price_unit": "pound"
+    },
+    "markers": {
+        "hotel": {
+            "St. George Hotel": {
+                "coordinates": [
+                    51.48852151465322,
+                    -0.1393655560563216
+                ],
+                "info": "hotel"
+            }
+        },
+        "landmark": {
+            "British Museum": {
+                "coordinates": [
+                    51.51929365,
+                    -0.12801772178494725
+                ],
+                "icon": "museum",
+                "info": "British museum",
+                "prijs": "free"
+            },
+            "Buckingham Palace": {
+                "coordinates": [
+                    51.500841300000005,
+                    -0.14298629208606997
+                ],
+                "info": "Kasteel"
+            },
+            "Convent Garden": {
+                "coordinates": [
+                    51.51212033147129,
+                    -0.12271718899384952
+                ],
+                "icon": "bag-shopping",
+                "info": "Shopping"
+            },
+            "Harrods": {
+                "coordinates": [
+                    51.4992104,
+                    -0.16298931529660202
+                ],
+                "icon": "bag-shopping",
+                "info": "Warenhuis"
+            },
+            "Hyde Park": {
+                "coordinates": [
+                    51.5074889,
+                    -0.16223668308067218
+                ],
+                "icon": "tree",
+                "info": "Park"
+            },
+            "James Bond Museum": {
+                "coordinates": [
+                    51.512439362607,
+                    -0.12105111578853864
+                ],
+                "icon": "museum",
+                "info": "James Bond museum"
+            },
+            "London Eye": {
+                "coordinates": [
+                    51.5033416,
+                    -0.11967649999999999
+                ],
+                "info": "Reuzenrad",
+                "prijs": "30.50"
+            },
+            "Lyceum Theatre": {
+                "coordinates": [
+                    51.51148085,
+                    -0.12005848404079367
+                ],
+                "icon": "masks-theater",
+                "info": "Lion King Musical"
+            },
+            "National History Museum": {
+                "coordinates": [
+                    51.496848566214716,
+                    -0.17613116730515585
+                ],
+                "icon": "museum",
+                "info": "museum",
+                "prijs": "free"
+            },
+            "Science Museum": {
+                "coordinates": [
+                    51.49739825,
+                    -0.174672605918894
+                ],
+                "icon": "museum",
+                "info": "Science museum",
+                "prijs": "free"
+            },
+            "Sherlock Holmes Museum": {
+                "coordinates": [
+                    51.5237629,
+                    -0.1584743
+                ],
+                "icon": "museum",
+                "info": "Museum"
+            },
+            "Sky Garden": {
+                "coordinates": [
+                    51.51134901486837,
+                    -0.08327035196419391
+                ],
+                "icon": "tree",
+                "info": "Park in wolkenkrabber"
+            },
+            "Tower Bridge": {
+                "coordinates": [
+                    51.5055166,
+                    -0.0753662
+                ],
+                "info": "Brug"
+            },
+            "Tower of London": {
+                "coordinates": [
+                    51.5081201,
+                    -0.07622237194643053
+                ],
+                "info": "Kasteel"
+            },
+            "Warner bros studios": {
+                "coordinates": [
+                    51.69002605,
+                    -0.42285307169827635
+                ],
+                "icon": "hat-wizard",
+                "info": "Harry Potter studios"
+            }
+        }
+    }
+}
