@@ -28,7 +28,7 @@
         },
         "hotel": {
             "201 Hotel": {
-                "beschikbaarheid": [
+                "availability": [
                     "31 Juli - 2 Aug"
                 ],
                 "coordinates": [
@@ -36,12 +36,12 @@
                     -21.889272855256802
                 ],
                 "info": "hotel",
-                "prijs": "172",
+                "price": "172",
                 "region": "zw",
                 "website": "https://www.booking.com/hotel/is/first-kopavogur.nl.html?aid=393655&label=msn-nN2SU%2AVsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=6062a088edbdba80cd0341ae97156c6f&all_sr_blocks=270364401_106138512_0_1_0;checkin=2023-08-01;checkout=2023-08-02;dest_id=-2651804;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=5;highlighted_blocks=270364401_106138512_0_1_0;hpos=5;matching_block_id=270364401_106138512_0_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=270364401_106138512_0_1_0__16082;srepoch=1679426339;srpvid=09ae87d06d4b01d7;type=total;ucfs=1&#hotelTmpl"
             },
             "Borealis Hotel": {
-                "beschikbaarheid": [
+                "availability": [
                     "21-22 Juli"
                 ],
                 "coordinates": [
@@ -49,12 +49,12 @@
                     -20.99611924176507
                 ],
                 "info": "hotel",
-                "prijs": "217",
+                "price": "217",
                 "region": "mid",
                 "website": "https://www.booking.com/hotel/is/borealis.html?aid=393655&label=msn-nN2SU%2AVsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=4e3736c243bf75aa4fa5cfce2b616549;checkin=2023-07-21;checkout=2023-07-22;room1=A,A;homd=1;srpvid=67718e6fd07c01ec;srepoch=1679430236;atlas_src=hp_iw_btn"
             },
             "Cozy Cottage": {
-                "beschikbaarheid": [
+                "availability": [
                     "29-31 Juli"
                 ],
                 "coordinates": [
@@ -62,12 +62,12 @@
                     -20.474151680584225
                 ],
                 "info": "hotel",
-                "prijs": "340",
+                "price": "340",
                 "region": "mid",
                 "website": "https://www.booking.com/hotel/is/cozy-cottage-near-geysir.nl.html?aid=393655&label=msn-nN2SU%2AVsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=6062a088edbdba80cd0341ae97156c6f&all_sr_blocks=267334301_335581656_2_0_0;checkin=2023-07-29;checkout=2023-07-31;dest_id=900039652;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=4;highlighted_blocks=267334301_335581656_2_0_0;hpos=4;matching_block_id=267334301_335581656_2_0_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=267334301_335581656_2_0_0__31500;srepoch=1679427147;srpvid=63f389647b3502f2;type=total;ucfs=1&#map_closed"
             },
             "Egilsstadir Guesthouse": {
-                "beschikbaarheid": [
+                "availability": [
                     "26-27 Juli"
                 ],
                 "coordinates": [
@@ -75,12 +75,12 @@
                     -14.398483797020983
                 ],
                 "info": "airbnb",
-                "prijs": "90-106",
+                "price": "90-106",
                 "region": "o",
                 "website": "https://www.airbnb.nl/rooms/8861676?adults=1&category_tag=Tag%3A8534&children=0&infants=0&location=IJsland&pets=0&check_in=2023-07-18&check_out=2023-07-20&federated_search_id=5f63b9e3-b534-4531-8696-3e2c676e410a&source_impression_id=p3_1678821365_74xbwWF8suu5uTYX"
             },
             "Grundarfjordur hostel": {
-                "beschikbaarheid": [
+                "availability": [
                     "22-23 Juli"
                 ],
                 "coordinates": [
@@ -88,12 +88,12 @@
                     -23.25818743861
                 ],
                 "info": "hostel",
-                "prijs": "252",
+                "price": "252",
                 "region": "w",
                 "website": "https://www.booking.com/hotel/is/grundarfjordur-hostel.nl.html?aid=393655&label=msn-nN2SU*VsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=d3b98d58d08ee491a7ad8be69a2a4c3e&all_sr_blocks=113313901_89105776_0_0_0&checkin=2023-07-21&checkout=2023-07-23&dest_id=900040112&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=5&highlighted_blocks=113313901_89105776_0_0_0&hpos=5&matching_block_id=113313901_89105776_0_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=113313901_89105776_0_0_0__25200&srepoch=1679339097&srpvid=6f32862b131800a4&type=total&ucfs=1&activeTab=main"
             },
             "Hafnarfjordur": {
-                "beschikbaarheid": [
+                "availability": [
                     "18-21 Juli"
                 ],
                 "coordinates": [
@@ -101,11 +101,11 @@
                     -21.92558809422129
                 ],
                 "info": "airbnb",
-                "prijs": "130",
+                "price": "130",
                 "website": "https://www.airbnb.nl/rooms/668160471397777486?adults=2&category_tag=Tag%3A8542&location=IJsland&check_in=2023-07-18&check_out=2023-07-21&federated_search_id=205f01cc-6309-4054-bc02-3742c007d4c7&source_impression_id=p3_1679430687_XjXMihmteLQx3Dfn"
             },
             "Saudanes": {
-                "beschikbaarheid": [
+                "availability": [
                     "27-28 Juli"
                 ],
                 "coordinates": [
@@ -113,12 +113,12 @@
                     -15.150051645557403
                 ],
                 "info": "airbnb",
-                "prijs": "164",
+                "price": "164",
                 "region": "zo",
                 "website": "https://www.airbnb.nl/rooms/760634764740141018?source_impression_id=p3_1679433759_3ijtpHB0MEXkwKEh"
             },
             "Skogar 35": {
-                "beschikbaarheid": [
+                "availability": [
                     "28-29 Juli"
                 ],
                 "coordinates": [
@@ -126,12 +126,12 @@
                     -19.4934304
                 ],
                 "info": "airbnb",
-                "prijs": "141",
+                "price": "141",
                 "region": "z",
                 "website": "https://www.airbnb.nl/rooms/35559520?adults=2&category_tag=Tag%3A8542&location=IJsland&check_in=2023-07-28&check_out=2023-07-29&federated_search_id=caa99e90-c7c3-487b-89ce-83016867b5a1&source_impression_id=p3_1679427684_WP%2FyzYJ%2F3aunNWj9"
             },
             "Tjarnir": {
-                "beschikbaarheid": [
+                "availability": [
                     "24-26 Juli"
                 ],
                 "coordinates": [
@@ -139,7 +139,7 @@
                     -17.730685922653812
                 ],
                 "info": "hotel",
-                "prijs": "324",
+                "price": "324",
                 "region": "n",
                 "website": "https://www.booking.com/hotel/is/tjarnir-husavik12345678910111213141516171819202122.nl.html?aid=393655&label=msn-nN2SU%2AVsjGQYh9GiewoJcA-80058206118269%3Atikwd-80058335066321%3Aloc-129%3Aneo%3Amte%3Alp152375%3Adec%3Aqsbooking.com&sid=4e3736c243bf75aa4fa5cfce2b616549&all_sr_blocks=839373201_350448010_0_0_0;checkin=2023-07-24;checkout=2023-07-26;dest_id=900049871;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=839373201_350448010_0_0_0;hpos=1;matching_block_id=839373201_350448010_0_0_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=839373201_350448010_0_0_0__32400;srepoch=1679428619;srpvid=e4378c45039b0240;type=total;ucfs=1&#map_closed"
             }
@@ -264,7 +264,7 @@
                     -20.8848138
                 ],
                 "info": "Krater meer. Je kan de krater in om bij het meer te komen.",
-                "prijs": "2.70"
+                "price": "2.70"
             },
             "Kirkjufellsfoss": {
                 "coordinates": [
@@ -302,7 +302,7 @@
                 ],
                 "icon": "person-swimming",
                 "info": "Geothermische baden",
-                "prijs": "41 p.p.",
+                "price": "41 p.p.",
                 "website": "https://myvatnnaturebaths.is/"
             },
             "Namafjall": {
@@ -364,7 +364,7 @@
                 ],
                 "icon": "person-hiking",
                 "info": "Gletsjerwandeling op Vatnajokull (3 uur).",
-                "prijs": "98 p.p.",
+                "price": "98 p.p.",
                 "website": "https://www.getyourguide.com/skaftafell-l2340/skaftafell-glacier-hike-t140838/"
             },
             "Skaftafell ice climbing": {
@@ -374,7 +374,7 @@
                 ],
                 "icon": "person-hiking",
                 "info": "Omhoog klimmen op de gletsjer Vatnajokull (4 uur).",
-                "prijs": "188 p.p.",
+                "price": "188 p.p.",
                 "website": "https://www.getyourguide.com/vik-l32622/skaftafell-ice-climbing-t147492/"
             },
             "Skogafoss": {

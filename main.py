@@ -1,8 +1,11 @@
 import sys
 import json
-from typing import Any, Union
+from functools import partial
+from typing import Any, Union, Type
 from geopy.geocoders import Nominatim
 import folium
+
+import dictionary
 
 
 class MapItems:
@@ -40,6 +43,13 @@ class MapItems:
         #     _d[key] = {**_d[key], **val}
         # else:
         _d[key] = val
+
+    def get(self, keys: Union[list, str], default: Any):
+        """ Mimics the .get() from a Python dict. """
+        try:
+            return self[keys]
+        except KeyError:
+            return default
 
     def to_json(self, filename: str = None) -> None:
         """Saves a json file"""
@@ -87,7 +97,7 @@ class MapMaker:
     """
     Class to construct the map with all its components.
     """
-    def __init__(self, map_item_filename=None):
+    def __init__(self, map_item_filename=None, language='nl'):
 
         if map_item_filename is not None:
             self.mi = MapItems.from_json(map_item_filename)
@@ -97,6 +107,11 @@ class MapMaker:
         self.locator = Locator()
 
         self.base_map = None
+
+        if language == "nl":
+            self.lg = dictionary.Nederlands.get_names_values()
+        elif language == "en":
+            self.lg = dictionary.English.get_names_values()
 
     def create_map(self) -> None:
         self.base_map = folium.Map(location=self.mi['main']['coordinates'], control_scale=True, zoom_start=7)
@@ -134,6 +149,64 @@ class MapMaker:
             # Try to make icon
             return folium.Icon(color=color, icon=icon, prefix='fa')
 
+    def _create_popup(self, loc: str, info_dict: dict[str, Any], width: int = 200, height: int = 200) -> folium.Popup:
+        """
+        Creates popup information for the markers.
+
+        Possibilities (in order):
+        - website: Link to the website
+        - price: Price of the location
+        - info: Free text; will be displayed as-is.
+        - availability: List of dates that the location is available
+        """
+
+        def _fill_str(str_format: str, info_dict: dict, key: str):
+            return str_format.format(**{key: info_dict[key]}) if key in info_dict else ""
+
+        # Info - display as-is
+        _info_format = "{info}<br>"
+
+        # Website - create url
+        _website_format = """<a href="{website}" target="_blank">%s</a><br>""" % self.lg['website'].capitalize()
+
+        # Price - list the price with corresponding unit OR 'free'
+        if 'price' in info_dict.keys():
+            if info_dict['price'] == "free":
+                _price = "{name}: {price}!<br>".format(
+                    name=self.lg['price'].capitalize(),
+                    price=self.lg['free']
+                )
+            else:
+                # if "price_unit" in self.mi["main"]:
+                #     unit = self.mi[['main', 'price_unit']]
+                # else:
+                #     unit = "euro"
+                unit = self.mi.get(['main', 'price_unit'], "euro")
+
+                _price = "{name}: &{unit}; {price}<br>".format(
+                    name=self.lg['price'].capitalize(),
+                    unit=unit,
+                    price=info_dict['price']
+                )
+        else:
+            _price = ""
+
+        # Availability - make a list of dates
+        _availability = "{name}: <ul>{availability}</ul>".format(
+            name=self.lg['availability'].capitalize(),
+            availability=''.join([f"<li>{item}</li>" for item in info_dict['availability']])
+        ) if 'availability' in info_dict else ''
+
+        # Create HTML
+        html = """<b>{loc}</b><br>{website}{price}{info}{availability}""".format(
+            loc=loc,
+            website=_fill_str(_website_format, info_dict, 'website'),
+            price=_price,
+            info=_fill_str(_info_format, info_dict, 'info'),
+            availability=_availability
+        )
+        return folium.Popup(folium.IFrame(html, width=width, height=height))
+
     def add_markers(self) -> None:
         markers = self.mi["markers"]
         for item, locations in markers.items():
@@ -141,19 +214,7 @@ class MapMaker:
             for loc, info_dict in locations.items():
                 assert "coordinates" in info_dict.keys(), f"{loc} is missing coordinates!"
 
-                _info = f"{info_dict['info']}<br>" if 'info' in info_dict else ''
-                _website = f"""<a href="{info_dict['website']}" target="_blank">website</a><br>""" if 'website' in info_dict else ''
-                _price = f"""Prijs: &euro; {info_dict['prijs']}<br> """ if 'prijs' in info_dict else ''
-                _availability = "Beschikbaarheid: <ul>{availability}</ul>".format(availability=''.join([f"<li>{item}</li>" for item in info_dict['beschikbaarheid']])) if 'beschikbaarheid' in info_dict else ''
-
-                html = """<b>{loc}</b><br>{website}{price}{info}{availability}""".format(
-                    loc=loc,
-                    website=_website,
-                    price=_price,
-                    info=_info,
-                    availability=_availability
-                )
-                popup = folium.Popup(folium.IFrame(html, width=200, height=200))
+                popup = self._create_popup(loc, info_dict=info_dict)
 
                 colors = {
                     "hotel": "green",
