@@ -1,9 +1,9 @@
 import sys
 import json
-from functools import partial
-from typing import Any, Union, Type
+from typing import Any, Union
 from geopy.geocoders import Nominatim
 import folium
+import numpy as np
 
 import dictionary
 
@@ -231,6 +231,18 @@ class MapMaker:
                     )
                 ).add_to(self.base_map)
 
+    def zoom(self):
+        """ Automatically find the optimal zoom such that all markers are in view. """
+        coordinates = []
+        markers = self.mi["markers"]
+        for item, locations in markers.items():
+            for loc, info_dict in locations.items():
+                if "coordinates" in info_dict.keys():
+                    coordinates.append(info_dict["coordinates"])
+        sw = np.array(coordinates).min(axis=0).tolist()
+        ne = np.array(coordinates).max(axis=0).tolist()
+        self.base_map.fit_bounds([sw, ne])
+
     def save_map(self, filename: str) -> None:
         self.base_map.save(filename)
 
@@ -238,6 +250,8 @@ class MapMaker:
         self.create_map()
 
         self.add_markers()
+
+        self.zoom()
 
 
 if __name__ == "__main__":
