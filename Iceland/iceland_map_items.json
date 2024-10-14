@@ -1,4 +1,11 @@
 {
+    "main": {
+        "coordinates": [
+            64.9841821,
+            -18.1059013
+        ],
+        "country": "iceland"
+    },
     "markers": {
         "food": {
             "Hotel Skogafoss Bistro Bar": {
@@ -145,6 +152,29 @@
             }
         },
         "landmark": {
+            "Akureyri": {
+                "coordinates": [
+                    65.68277033896202,
+                    -18.091801941051862
+                ],
+                "icon": "city",
+                "info": "Stad"
+            },
+            "Albinghusio": {
+                "coordinates": [
+                    64.14650073300247,
+                    -21.940158075117196
+                ],
+                "info": "Parlementsgebouw"
+            },
+            "Arnarholl": {
+                "coordinates": [
+                    64.14698605000001,
+                    -21.929381054504482
+                ],
+                "icon": "binoculars",
+                "info": "Heuvel met uitzicht over de (oude) haven."
+            },
             "Arnarstapi": {
                 "coordinates": [
                     64.766727,
@@ -167,6 +197,31 @@
                 ],
                 "icon": "person-swimming",
                 "info": "Geothermisch bad"
+            },
+            "Borgarfjordur Eystri": {
+                "coordinates": [
+                    65.54299756959995,
+                    -13.747180958310606
+                ],
+                "icon": "binoculars",
+                "info": "Papegaaiduikers spotten"
+            },
+            "Botanische tuinen": {
+                "coordinates": [
+                    64.14036421182496,
+                    -21.870047787797176
+                ],
+                "icon": "leaf",
+                "info": "s zomers tot 22.00 geopend."
+            },
+            "Bryggjan Brugghus": {
+                "coordinates": [
+                    64.1530234,
+                    -21.9493305
+                ],
+                "icon": "beer",
+                "info": "Brouwerij + evt. proeverij",
+                "website": "https://www.bryggjanbrugghus.is/en"
             },
             "Diamond beach": {
                 "coordinates": [
@@ -212,6 +267,14 @@
                 ],
                 "info": "Gletsjermeer met ijsschotsen"
             },
+            "Gerduberg Cliff": {
+                "coordinates": [
+                    64.86070769899321,
+                    -22.358806812765565
+                ],
+                "icon": "mountain",
+                "info": "Basalt kliffen"
+            },
             "Geysir": {
                 "coordinates": [
                     64.3138382,
@@ -243,6 +306,22 @@
                 "icon": "water",
                 "info": "Watervallen"
             },
+            "Hallgrimskirkja": {
+                "coordinates": [
+                    64.14179505000001,
+                    -21.92671029899373
+                ],
+                "icon": "church",
+                "info": "Kerk. Kaartje kopen voor de lift, naar 70 m hoogte."
+            },
+            "Harpa": {
+                "coordinates": [
+                    64.15043255,
+                    -21.932853521983915
+                ],
+                "icon": "building",
+                "info": "Futuristisch gebouw"
+            },
             "Hraunfossar": {
                 "coordinates": [
                     64.7025647,
@@ -273,6 +352,14 @@
                 ],
                 "icon": "water",
                 "info": "Watervallen"
+            },
+            "Kolugljufur Canyon": {
+                "coordinates": [
+                    65.33596043829735,
+                    -20.562696333376227
+                ],
+                "icon": "water",
+                "info": "Canyon"
             },
             "Krafla area": {
                 "coordinates": [
@@ -321,8 +408,8 @@
             },
             "Reykjadalur": {
                 "coordinates": [
-                    64.1662703,
-                    -20.2645082
+                    64.05077755217265,
+                    -21.209182899672655
                 ],
                 "icon": "person-hiking",
                 "info": "1 uur hike naar warm water rivier"
@@ -334,6 +421,14 @@
                 ],
                 "icon": "umbrella-beach",
                 "info": "Beroemd zwart strand. Mooi uitzicht. Warm kleden"
+            },
+            "Saxholl Crater": {
+                "coordinates": [
+                    64.85242802154515,
+                    -23.92471357216132
+                ],
+                "icon": "volcano",
+                "info": "Krater"
             },
             "Seljalandsfoss": {
                 "coordinates": [
@@ -415,6 +510,22 @@
                 ],
                 "info": "Mooie berg"
             },
+            "Videy": {
+                "coordinates": [
+                    64.16521945,
+                    -21.85336698672562
+                ],
+                "icon": "tree",
+                "info": "Eilanden die per boot te bezoeken zijn. Op Videy kan je uitstappen."
+            },
+            "Vissershaven": {
+                "coordinates": [
+                    64.14946156131461,
+                    -21.936809166415784
+                ],
+                "icon": "fish",
+                "info": "Vissershaven"
+            },
             "Viti": {
                 "coordinates": [
                     65.7171018,
@@ -431,12 +542,5 @@
                 "info": "Strand"
             }
         }
-    },
-    "main": {
-        "coordinates": [
-            64.9841821,
-            -18.1059013
-        ],
-        "country": "iceland"
     }
 }

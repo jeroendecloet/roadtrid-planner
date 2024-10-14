@@ -91,6 +91,14 @@
                 "info": "museum",
                 "price": "free"
             },
+            "Platform 9 3/4": {
+                "coordinates": [
+                    51.5321878,
+                    -0.12390657687861176
+                ],
+                "info": "Platform 9 3/4",
+                "icon": "hat-wizard"
+            },
             "Science Museum": {
                 "coordinates": [
                     51.49739825,
@@ -105,7 +113,7 @@
                     51.5237629,
                     -0.1584743
                 ],
-                "icon": "museum",
+                "icon": "magnifying-glass",
                 "info": "Museum"
             },
             "Sky Garden": {

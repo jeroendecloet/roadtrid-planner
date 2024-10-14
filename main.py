@@ -114,7 +114,8 @@ class MapMaker:
             self.lg = dictionary.English.get_names_values()
 
     def create_map(self) -> None:
-        self.base_map = folium.Map(location=self.mi['main']['coordinates'], control_scale=True, zoom_start=7)
+        self.base_map = folium.Map(location=self.mi['main']['coordinates'], control_scale=True, zoom_start=7, tiles=None)
+        folium.TileLayer('OpenStreetMap', control=False).add_to(self.base_map)
 
     def _add_coordinates(self, keys: Union[list, str]) -> None:
         """ Adds coordinates to locations that do not have coordinates yet. """
