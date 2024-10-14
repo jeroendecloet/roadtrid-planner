@@ -1,6 +1,8 @@
 # Ignore all directories except a few
 /*
 
+!docs/
+!docs/**
 !example_iceland/
 !example_iceland/**
 !example_london/
