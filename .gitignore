@@ -1,0 +1,24 @@
+# Ignore all directories except a few
+/*
+
+!example-iceland/
+!example-iceland/**
+!example-london/
+!example-london/**
+!Iceland/
+!Iceland/**
+!London/
+!London/**
+
+*py[cod]
+*.log
+*.ipynb_checkpoints/
+.idea/
+__pycache__/
+
+.DS_Store
+Thumbs.db
+
+# Keep specific files
+!.gitignore
+!README.md
