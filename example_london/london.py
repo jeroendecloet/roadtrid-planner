@@ -1,4 +1,4 @@
-from main import MapMaker
+from src.main import MapMaker
 
 if __name__ == "__main__":
     # Initialize MapMaker object with JSON file

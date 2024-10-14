@@ -5,6 +5,8 @@
 !example_iceland/**
 !example_london/
 !example_london/**
+!src/
+!src/**
 
 *py[cod]
 *.log
@@ -19,3 +21,4 @@ Thumbs.db
 # Keep specific files
 !.gitignore
 !README.md
+!environment.yaml
